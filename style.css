@@ -1,0 +1,152 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+
+}
+li,a{
+    text-decoration: none;
+}
+header{
+
+background-color: teal;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+
+}
+
+.nav-bar{
+    
+    list-style:none;
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-bar li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-bar li a:hover{
+    color: rgb(220, 255, 19);
+}
+button{
+    font-size: 50px;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  
+}
+
+
+h1{
+font-size: 40px;
+}
+
+.top-nav{
+
+    background-color:teal;
+    
+}
+
+.green{
+    color: green;
+}
+
+.flexiable{
+
+    display: flex;
+    margin-bottom: 130px;
+
+}
+
+
+.half-width{
+    width: 50%;
+    
+    padding-left: 10%;
+    padding-right: 5%;
+
+}
+.half-width img{
+    width: 100%;
+    
+}
+
+
+.button{
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:rgb(245, 245, 245);
+    font-weight:400;
+    padding: 15px 15px;
+    border-radius: 20px ;
+
+}
+
+#down{
+    margin-bottom: 20%;
+}
+
+.bannar{
+
+    background-image: url(pic/7.png);
+    background-repeat: no-repeat;
+
+}
+.center{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.main-box{
+display: flex;
+margin-top: 50px;
+margin-left: 10%;
+margin-right: 10%;
+padding-bottom: 200px;
+}
+
+.box-item{
+    margin-right: 60px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+    
+    
+}
+
+.box-item img{
+   
+    height: 50%;
+    width: 260px;
+   
+    margin: 15px
+}
+.box-item p{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box-item h2{
+    padding-left: 7%;
+   
+}
+
+.footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(57, 88, 90);
+}
+
+
+
+#hub{
+    color: yellow;
+}
+
